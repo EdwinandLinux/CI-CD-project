@@ -1,0 +1,15 @@
+# This file contains the instructions GitHub Actions follows on every push
+# Complete workflow
+# 1 - Triggers on pushes to the main branch
+# 2- Builds your Docker images
+# 3- Push it to Docker Hub
+# 4- Update your Kubernetes deployment with the new image
+
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
