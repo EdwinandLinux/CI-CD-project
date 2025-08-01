@@ -4,6 +4,7 @@
 # 2- Builds your Docker images
 # 3- Push it to Docker Hub
 # 4- Update your Kubernetes deployment with the new image
+# Triggering GitHub Actions
 
 name: Build and Push to Docker Hub
 
